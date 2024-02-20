@@ -1,0 +1,701 @@
+[
+    {
+        "label": "Customer Information",
+        "values": [
+            {
+                "label": "Customer Customer ID",
+                "key": "id",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer First Name",
+                "key": "firstName",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Name",
+                "key": "lastName",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Display Name",
+                "key": "displayName",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Email",
+                "key": "email",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Customer State",
+                "key": "state",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Tags",
+                "key": "tags",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Tax Exempt",
+                "key": "taxExempt",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Updated At",
+                "key": "updatedAt",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Valid Email Address",
+                "key": "validEmailAddress",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Verified Email",
+                "key": "verifiedEmail",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Created At",
+                "key": "createdAt",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Phone",
+                "key": "phone",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Note",
+                "key": "note",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Number of Orders",
+                "key": "numberOfOrders",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Can Delete",
+                "key": "canDelete",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Average Order Amount",
+                "key": "averageOrderAmount",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Accepts Marketing",
+                "key": "acceptsMarketing",
+                "type": "Boolean",
+                "dis": ""
+            },
+            {
+                "label": "Customer Tax Exemptions",
+                "key": "taxExemptions",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Accepts Marketing Updated At",
+                "key": "acceptsMarketingUpdatedAt",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Has Timeline Comment",
+                "key": "hasTimelineComment",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Amount Spent Amount",
+                "key": "amountSpent_amount",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Amount Spent Currency Code",
+                "key": "amountSpent_currencyCode",
+                "type": "String",
+                "dis": ""
+            }
+        ]
+    },
+    {
+        "label": "Default Address",
+        "values": [
+            {
+                "label": "Customer Default Address Address 1",
+                "key": "defaultAddress_address1",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address Address 2",
+                "key": "defaultAddress_address2",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address City",
+                "key": "defaultAddress_city",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address Company",
+                "key": "defaultAddress_company",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address Coordinates Validated",
+                "key": "defaultAddress_coordinatesValidated",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address Country",
+                "key": "defaultAddress_country",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address Country Code",
+                "key": "defaultAddress_countryCode",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address Country Code V2",
+                "key": "defaultAddress_countryCodeV2",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address First Name",
+                "key": "defaultAddress_firstName",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address Last Name",
+                "key": "defaultAddress_lastName",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address Name",
+                "key": "defaultAddress_name",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address Phone",
+                "key": "defaultAddress_phone",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address Province",
+                "key": "defaultAddress_province",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address Province Code",
+                "key": "defaultAddress_provinceCode",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address Time Zone",
+                "key": "defaultAddress_timeZone",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Default Address ZIP",
+                "key": "defaultAddress_zip",
+                "type": "String",
+                "dis": ""
+            }
+        ]
+    },
+    {
+        "label": "Last Order",
+        "values": [
+            {
+                "label": "Customer Last Order Created At",
+                "key": "lastOrder_createdAt",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Confirmed",
+                "key": "lastOrder_confirmed",
+                "type": "Boolean",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Confirmation Number",
+                "key": "lastOrder_confirmationNumber",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Closed At",
+                "key": "lastOrder_closedAt",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Client IP",
+                "key": "lastOrder_clientIp",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Closed",
+                "key": "lastOrder_closed",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address Matches Shipping Address",
+                "key": "lastOrder_billingAddressMatchesShippingAddress",
+                "type": "Boolean",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Can Mark As Paid",
+                "key": "lastOrder_canMarkAsPaid",
+                "type": "Boolean",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Cancel Reason",
+                "key": "lastOrder_cancelReason",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Cancelled At",
+                "key": "lastOrder_cancelledAt",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Capturable",
+                "key": "lastOrder_capturable",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Can Notify Customer",
+                "key": "lastOrder_canNotifyCustomer",
+                "type": "Boolean",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Currency Code",
+                "key": "lastOrder_currencyCode",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Cart Discount Amount",
+                "key": "lastOrder_cartDiscountAmount",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Cart Discount Amount Set",
+                "key": "lastOrder_cartDiscountAmountSet",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Total Shipping Price",
+                "key": "lastOrder_totalShippingPrice",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Total Refunded",
+                "key": "lastOrder_totalRefunded",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Total Discounts",
+                "key": "lastOrder_totalDiscounts",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Taxes Included",
+                "key": "lastOrder_taxesIncluded",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Tax Exempt",
+                "key": "lastOrder_taxExempt",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Customer Accepts Marketing",
+                "key": "lastOrder_customerAcceptsMarketing",
+                "type": "Boolean",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Current Total Weight",
+                "key": "lastOrder_currentTotalWeight",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Fulfillment Status",
+                "key": "lastOrder_displayFulfillmentStatus",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Financial Status",
+                "key": "lastOrder_displayFinancialStatus",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Disputes",
+                "key": "lastOrder_disputes",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Fully Paid",
+                "key": "lastOrder_fullyPaid",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Has Timeline Comment",
+                "key": "lastOrder_hasTimelineComment",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order ID",
+                "key": "lastOrder_id",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Landing Page URL",
+                "key": "lastOrder_landingPageUrl",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Landing Page Display Text",
+                "key": "lastOrder_landingPageDisplayText",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Name",
+                "key": "lastOrder_name",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Net Payment",
+                "key": "lastOrder_netPayment",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Note",
+                "key": "lastOrder_note",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Phone",
+                "key": "lastOrder_phone",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Presentment Currency Code",
+                "key": "lastOrder_presentmentCurrencyCode",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Processed At",
+                "key": "lastOrder_processedAt",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Referral Code",
+                "key": "lastOrder_referralCode",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Referrer Display Text",
+                "key": "lastOrder_referrerDisplayText",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Referrer URL",
+                "key": "lastOrder_referrerUrl",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Return Status",
+                "key": "lastOrder_returnStatus",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Restockable",
+                "key": "lastOrder_restockable",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Requires Shipping",
+                "key": "lastOrder_requiresShipping",
+                "type": "Boolean",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Registered Source URL",
+                "key": "lastOrder_registeredSourceUrl",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Risk Level",
+                "key": "lastOrder_riskLevel",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address Address 1",
+                "key": "lastOrder_billingAddress_address1",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address Address 2",
+                "key": "lastOrder_billingAddress_address2",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address City",
+                "key": "lastOrder_billingAddress_city",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address Company",
+                "key": "lastOrder_billingAddress_company",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address Coordinates Validated",
+                "key": "lastOrder_billingAddress_coordinatesValidated",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address Country",
+                "key": "lastOrder_billingAddress_country",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address Country Code",
+                "key": "lastOrder_billingAddress_countryCode",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address Country Code V2",
+                "key": "lastOrder_billingAddress_countryCodeV2",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address First Name",
+                "key": "lastOrder_billingAddress_firstName",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address Last Name",
+                "key": "lastOrder_billingAddress_lastName",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address Name",
+                "key": "lastOrder_billingAddress_name",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address Phone",
+                "key": "lastOrder_billingAddress_phone",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address Province",
+                "key": "lastOrder_billingAddress_province",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address Province Code",
+                "key": "lastOrder_billingAddress_provinceCode",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address Time Zone",
+                "key": "lastOrder_billingAddress_timeZone",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Billing Address ZIP",
+                "key": "lastOrder_billingAddress_zip",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address Address 1",
+                "key": "lastOrder_displayAddress_address1",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address Address 2",
+                "key": "lastOrder_displayAddress_address2",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address City",
+                "key": "lastOrder_displayAddress_city",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address Company",
+                "key": "lastOrder_displayAddress_company",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address Country",
+                "key": "lastOrder_displayAddress_country",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address Country Code",
+                "key": "lastOrder_displayAddress_countryCode",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address Country Code V2",
+                "key": "lastOrder_displayAddress_countryCodeV2",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address First Name",
+                "key": "lastOrder_displayAddress_firstName",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address Last Name",
+                "key": "lastOrder_displayAddress_lastName",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address Name",
+                "key": "lastOrder_displayAddress_name",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address Phone",
+                "key": "lastOrder_displayAddress_phone",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address Province",
+                "key": "lastOrder_displayAddress_province",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address Province Code",
+                "key": "lastOrder_displayAddress_provinceCode",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address Time Zone",
+                "key": "lastOrder_displayAddress_timeZone",
+                "type": "String",
+                "dis": ""
+            },
+            {
+                "label": "Customer Last Order Display Address ZIP",
+                "key": "lastOrder_displayAddress_zip",
+                "type": "String",
+                "dis": ""
+            }
+        ]
+    }
+]

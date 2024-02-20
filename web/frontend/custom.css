@@ -1,0 +1,213 @@
+.scrollable {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  .txt-link{
+    display: flex;
+    justify-content: center;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  .Polaris-ResourceItem__ListItem{
+    list-style:none;
+  }
+ 
+  .custom-linear-loading-bar {
+    height: 4px; 
+    width: 100%;
+    background: linear-gradient(to right, #020202, #ffffff);
+    background-size: 200% 100%;
+    animation: loading 2s linear infinite;
+  }
+  @keyframes loading {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+  .position-relative {
+    position: relative;
+  }
+  
+  .spinner-container {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 9999999;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .plan_card{
+    font: 50px;
+  }
+  
+  .Polaris-Button__Text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .Polaris-TopBar__LogoContainer{
+    margin-left:10px;
+  }
+  .masonry-grid {
+    display: flex;
+    margin-left: -8px; /* Adjust based on your card spacing */
+    width: 100%;
+  }
+  
+  .masonry-column {
+    padding-left: 0px; /* Adjust based on your card spacing */
+    background-clip: padding-box;
+  }
+  .fle{
+    padding-bottom: 10px;
+    display:flex;
+    align-items: center;
+  }
+  .fle svg{
+    padding-right: 10px;
+  }
+ 
+  .Polaris-ResourceItem:hover{
+    background-color: #fff;
+  }
+
+  .Polaris-Button--variantPrimary {
+    padding:0;
+    min-height: 0;
+  }
+  .fl{
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+  }
+  .group-result{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+/* .card_disabled:before{
+  content: "";
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 99999999;
+} */
+
+
+/* Add this to your stylesheet or style tag */
+.custom-truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.custom-max-width {
+  max-width: 150px; /* Adjust the value as per your requirement */
+}
+.custom-max-width-home {
+  max-width: 300px; /* Adjust the value as per your requirement */
+}
+.Polaris-DataTable__Cell,.Polaris-DataTable__IncreasedTableDensity .Polaris-DataTable__Cell{
+  padding: var(--p-space-200);
+}
+
+
+.Polaris-Page-Header__Row{
+  align-items: center;
+}
+
+
+.disable_column{
+  opacity: 0.4;
+    pointer-events: none;
+}
+
+ /* .flrmv_btn .Polaris-Button{
+  padding: 0;
+ } */
+
+ .Polaris-Popover__Content--fluidContent{
+  overflow: auto;
+ }
+
+ .Polaris-Spinner--sizeLarge{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ .Polaris-Button.Polaris-Button--pressed{
+  background: var(--pc-button-bg_active);
+ }
+
+ .Polaris-DataTable__Cell--header{
+  padding-left: 0 !important;
+ }
+ .cus_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .Polaris-Button--variantSecondary .Polaris-Button:not(.Polaris-Button--plain) .Polaris-Button__Content{
+  line-height: 0;
+ }
+ @keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+ .animate_skeleton .Polaris-SkeletonDisplayText__DisplayText, .animate_skeleton .Polaris-SkeletonBodyText, .animate_skeleton #SkeletonPage-PrimaryAction,.animate_skeleton .Polaris-SkeletonPage__SkeletonTitle{
+  opacity:1;
+  animation: pulse 1.5s infinite;
+}
+
+.schedule_page_data .Polaris-ResourceItem__Actions .Polaris-Button--sizeSlim , .Polaris-ActionMenu-SecondaryAction .Polaris-Button{
+  min-height:0;
+  min-width:0;
+  line-height: 0;
+  padding: 0;
+}
+.schedule_page_data .schedule_page_btn{
+  padding:10px;
+}
+.cus_report_page .Polaris-ResourceItem__Actions .Polaris-Button--variantSecondary{
+  padding:0;
+}
+.fle a:hover{
+  color:#E49303;
+}
+.Polaris-ActionMenu-Actions__ActionsLayout .Polaris-ButtonGroup__Item div .Polaris-ActionMenu-SecondaryAction button{
+  padding:6px 8px;
+}
+
+/* .review_button{
+  position: fixed;
+  z-index: 999999999;
+  bottom: 20px;
+  right: 40px;
+} */
